@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name '*.html' -exec test ../{} -ot {} \) -exec cp {} .. \)
+cp -v *.html ../../folder_destination/
