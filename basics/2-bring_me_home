@@ -1,2 +1,2 @@
 #!/bin/bash
-cd ~
+find myDir -name *.html -print | xargs -0 cp ~/otherDir
