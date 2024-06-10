@@ -1,8 +1,2 @@
 #!/bin/bash
-cd
-if [ -d ./project ]
-    then 
-        echo hi it exists!
-    else
-        echo it doesn't exist!
-cd project/
+cd "$HOME"
